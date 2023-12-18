@@ -1,0 +1,55 @@
+*::selection {
+  background-color: #a6ff47;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  font-family: "Martian Mono";
+  font-weight: 200;
+}
+
+img {
+  max-width: 50%;
+  margin-bottom: 15px;
+}
+
+p {
+  hyphens:auto;
+}
+
+summary {
+  /* font-style: italic; */
+  cursor: pointer;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+details {
+  margin-bottom: 20px;
+}
+
+details summary::before {
+  content: "+ ";
+}
+
+details[open] summary::before {
+  content: "- ";
+}
+
+ul {
+  list-style: none;
+  line-height: 2;
+}
+
+a {
+  color: #a6ff47;
+}
