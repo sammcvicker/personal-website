@@ -1,6 +1,13 @@
+@font-face {
+  font-family: 'DejaVu Mono';
+  src: url('./assets/DejaVuSansMono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *::selection {
-  background-color: #a6ff47;
-  color: black;
+  background-color: blue;
+  color: whitesmoke;
 }
 
 h1 {
@@ -13,8 +20,9 @@ body {
   max-width: 600px;
   margin: auto;
   padding: 30px;
-  font-family: "Martian Mono";
-  font-weight: 200;
+  font-family: "DejaVu Mono", serif;
+  font-size: 12pt;
+  /* font-weight: 100; */
 }
 
 img {
@@ -34,7 +42,10 @@ summary {
 }
 
 details {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  padding: 10px;
+  background-color: whitesmoke;
+  color: black;
 }
 
 details summary::before {
@@ -46,10 +57,13 @@ details[open] summary::before {
 }
 
 ul {
-  list-style: none;
-  line-height: 2;
+  /* list-style: none; */
+  /* color: blue; */
+  line-height: 1.5;
 }
 
 a {
-  color: #a6ff47;
+  color: whitesmoke;
+  background-color: blue;
+  text-decoration: none;
 }
