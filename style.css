@@ -19,7 +19,7 @@ body {
   color: whitesmoke;
   max-width: 600px;
   margin: auto;
-  padding: 30px;
+  padding: 20px;
   font-family: "DejaVu Mono", serif;
   font-size: 12pt;
   /* font-weight: 100; */
@@ -27,11 +27,13 @@ body {
 
 img {
   max-width: 50%;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 p {
   hyphens:auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 summary {
