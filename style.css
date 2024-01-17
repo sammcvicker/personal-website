@@ -6,8 +6,8 @@
 }
 
 *::selection {
-  background-color: blue;
-  color: whitesmoke;
+  background-color: #e3ed55;
+  color: black;
 }
 
 h1 {
@@ -36,36 +36,14 @@ p {
   margin-bottom: 15px;
 }
 
-summary {
-  /* font-style: italic; */
-  cursor: pointer;
-  list-style: none;
-  text-transform: uppercase;
-}
-
-details {
-  /* margin-bottom: 20px; */
-  padding: 10px;
-  background-color: whitesmoke;
-  color: black;
-}
-
-details summary::before {
-  content: "+ ";
-}
-
-details[open] summary::before {
-  content: "- ";
-}
-
 ul {
-  /* list-style: none; */
-  /* color: blue; */
   line-height: 1.5;
 }
 
 a {
-  color: whitesmoke;
-  background-color: blue;
-  text-decoration: none;
+  color: #00aa93;
+}
+
+a:hover {
+  color: #e3ed55;
 }
