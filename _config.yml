@@ -1,0 +1,3 @@
+# Force HTTPS
+production:
+  force_https: true
